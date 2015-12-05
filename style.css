@@ -1,0 +1,403 @@
+/*
+ Theme Name:   Pickles
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Pixel Media
+ Author URI:   http://example.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+*{
+color:#353434;
+}
+
+body {
+    color: white;
+    background: repeating-linear-gradient(
+    130deg,
+    #fff,
+    #fff 9px,
+    #efefef 9px,
+    #efefef 18px
+  );
+	padding-bottom:20px;
+}
+
+html {
+    margin-top: 0px;
+}
+
+h1{
+    font-family: 'Delius Swash Caps', cursive;
+    color:#137f40;
+}
+
+h2, h3, h4, h5, h6{
+    color:#137f40;
+}
+
+p{
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.secondary-toggle:before{
+	content: "\f419"
+}
+
+.menu-main-menu-container {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-item a {
+    color: #353434;
+    font-size: 1.5em;
+}
+
+.menu-item a:hover {
+    color: #137F40;
+}
+.current-menu-item a{
+    color: #84CBA3;
+}
+
+.widget_synved_social_follow {
+    text-align: center;
+}
+
+.wc-shortcodes-social-icons li a:hover {
+    opacity: .8;
+}
+
+.copyright {
+    font-family: 'Abel', sans-serif;
+    color: #84cba3;
+    font-size: .9em;
+    text-align: center;
+}
+a.scrollup-image {
+    opacity: .7;
+}
+
+.entry-content{
+    font-family: 'Abel', sans-serif;
+}
+
+#ltpannel, #rtpannel, .solocont{
+    font-family: 'Abel', sans-serif;
+    margin:0 8.333% 40px 8.333%;
+    }
+
+
+.widget-home1, .widget-home2, .widget-home3, .widget-home4{
+    text-align:center;
+    margin: 20px 0px 0px 0px;
+}
+
+.entry-content.home-content{
+	padding-bottom:20px;
+}
+
+.hoverbox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.hoverbox img {
+    width: 300px;
+    height: 300px;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -transition: .4s;
+}
+
+.hoverbox.on .overlay {
+    opacity: 1;
+}
+
+button,
+input,
+select,
+textarea {
+    background-color: #e0f2e8;
+    font-family: 'Abel', sans-serif;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    background-color: #137f40;
+    font-family: 'Abel', sans-serif;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    background-color: #353434;
+}
+.hentry, .page-header, .page-content {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #84cba3;
+    }
+
+#ltpannel .hentry, #ltpannel .page-header, #ltpannel.page-content, .homewidgets #ltpannel {
+    margin:0;
+    }
+
+.hentry, .hentry.has-post-thumbnail {
+    padding-top: 20px;
+}
+
+.post-thumbnail img{
+    border: 1px solid #DAD7D7;
+}
+
+
+.headerimg img.attachment-post-thumbnail.wp-post-image{
+    width:83%;
+    margin:0 8.333%;
+}
+
+.entry-content ul{
+	text-indent:1em;
+	list-style:none;
+}
+.entry-content ul li:before{
+	content:"•";
+	color:#137f40;
+	padding-right:.7em;
+}
+
+
+/*Testimonial*/
+
+.quotemarkl{
+    color:#137f40;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size:2em;
+}
+
+.quotemarkr{
+    color:#137f40;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size:2em;
+    text-align:right;
+    float:right;
+}
+
+.quote{
+    color:#b5b5b5;
+    font-size:1.5em;
+    text-align:justify;
+}
+
+/*Distribution Widget*/
+.widget-distribution{
+    background-color:#FFFFFF;
+    border: 1px solid #84cba3;
+    padding:5%;
+}
+
+/*Testimonial Widget*/
+.widget-testimonial .tggr-author-username, .widget-testimonial #tggr-media-item-container .tggr-actions a span, .widget-testimonial a [class^="icon-"], .widget-testimonial a [class*=" icon-"]{
+    color:#137f40;
+}
+
+.textwidget a{
+    border:none;
+    color:#137f40;
+}
+.textwidget a:hover, .textwidget a:focus{
+    color: #353434;
+    border-bottom: 1px solid #84cba3;
+	text-decoration:none;
+}
+
+.widget-testimonial .tggr-timestamp{
+    color:#DAD7D7;
+}
+
+
+.widget-testimonial div#tggr-loading-new-posts{
+	display:none;
+}
+
+.widget-testimonial .tggr-media-item{
+    border: 1px solid #84cba3;
+	margin: 0px 1% 30px 1%;
+}
+.widget-testimonial .tggr-source-logo {
+    -webkit-filter: hue-rotate(300deg);
+}
+
+#tggr-media-item-container .tggr-media-item:nth-child(n+4) {
+    display: none;
+}
+
+/*Contact Page*/
+.widget-contact1 {
+    background-color:#FFFFFF;
+    width:100%;
+    padding:5% 5% 5% 15%;
+    border: 1px solid #84cba3;
+    line-height:18px;
+    margin-bottom:50px;
+    word-wrap: break-word;
+    }
+
+
+
+/*404 Page*/
+
+.widget-error-page{
+    font-family: 'Abel', sans-serif;
+    font-size:1.3em;
+    line-height:2em;
+}
+
+    
+
+
+/*Products Widget*/
+.widget-product{
+    background-color:#FFFFFF;
+    padding:15px;
+    border: 1px solid #84cba3;
+    margin:25px 8.333% 0px 8.333%;
+}
+
+/*Locations - Maps*/
+.flxmap-container{
+    border: 1px solid #84cba3;
+}
+.flxmap-container a{
+    color: #137f40;
+	border:none;
+}
+.flxmap-container a:hover{
+    color: #353434;
+    border-bottom: 1px solid #84cba3;
+}
+
+/**
+ * logo at min-width 516px
+ */
+
+@media screen and (min-width: 516px) {
+    .logo{
+        width:40%;
+    }
+
+}
+/**
+ * logo at min-width 955px
+ */
+
+@media screen and (min-width: 955px) {
+    .logo{
+        width:100%;
+    }
+	a#scrollUp{
+		display:none !important;
+	}
+
+}
+
+/* Homepage widgets */
+
+@media screen and (min-width: 1150px) {
+    .homewidgets {
+        max-width: 1250px;
+        margin: 0 8.333%;
+    }
+
+/**
+ * 16.4 Desktop Small 955px
+ */
+
+ @media screen and (min-width: 46.25em) {
+    .secondary-toggle, .secondary-toggle:before {
+        width: 100px;
+    }
+
+@media screen and (min-width: 59.6875em) {
+    body:before {
+        height: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        z-index: 0; /* Fixes flashing bug with scrolling on Safari */
+    }
+
+    .site {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .sidebar {
+        width: 20%;
+        max-width:20%;
+    }
+
+    .site-main {
+        padding: 4% 0;
+    }
+
+    .site-content {
+        margin-left: 20%;
+        margin-right:5%;
+        width: 75%;
+    }
+    .site-header{
+        margin-top:8%;
+        padding:0 10%;
+    }
+
+    #ltpannel{
+        float:left;
+        width:47.5%;
+        margin:0 0 0 2.5%;
+    }
+
+    #rtpannel{
+        float:right;
+        width:47.5%;
+        margin:0 0 0 2.5%;
+    }
+.widget-product{
+	margin:25px 0 0 2.5%;
+    }
+
